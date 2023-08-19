@@ -9,6 +9,15 @@ for i in range(1,101):
     suma += i
     print("La suma del 1 al 100 es: ", suma)
 
+#ejercicio2
+palabra = " Hola estoy programando en python"
+
+
+vocales = ['a' , 'e', 'i', 'o', 'u']
+
+for vocal in vocales:
+    print(vocal , palabra.count(vocal))
+
 
 
 #ejercicio3
@@ -32,11 +41,3 @@ for numero in numeros:
 
 
 
-#ejercicio2
-palabra = " Hola estoy programando en python"
-
-
-vocales = ['a' , 'e', 'i', 'o', 'u']
-
-for vocal in vocales:
-    print(vocal , palabra.count(vocal))
